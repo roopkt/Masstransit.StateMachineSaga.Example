@@ -45,7 +45,6 @@ namespace StateMachineSaga.Tests
         [Fact]
         public void When_AuctionFailed_Received_Transitioned_To_FaultedState()
         {
-
             _context.CorrelationId = NewId.NextGuid();
             _context.AuctionId = NewId.NextGuid();
 
